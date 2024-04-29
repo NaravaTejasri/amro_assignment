@@ -1,8 +1,9 @@
 import axios from "axios";
+import { apiUrl } from "../config/constants";
 
 const fetchData = async () => {
   try {
-    const response = await axios.get("http://localhost:8000/");
+    const response = await axios.get(apiUrl);
     console.log("response", response.data);
     return response.data;
   } catch (error) {
