@@ -27,7 +27,7 @@ This project aims to create a web application for visualizing hierarchical data 
 git clone https://github.com/NaravaTejasri/amro_assignment
 ```
 
-2. Go to the project directory `amro_assignment > frontend` and `amro_assignment > backend` in the terminal/command line and run the following command to install dependencies:
+2. Go to the project directory `amro_assignment > cd frontend` and `amro_assignment > cd backend` in the terminal/command line and run the following command to install dependencies:
 
 ```sh
 npm install
